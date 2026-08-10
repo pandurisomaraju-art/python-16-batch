@@ -1,4 +1,4 @@
-1 first
+#1first
 class Student:
     total_students = 0
     passing_marks = 40
