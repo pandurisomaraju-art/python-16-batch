@@ -367,18 +367,15 @@ class ListIndex:
 #     print(i)
 
 
-
-#
 # 5. Generator that yields digits from an integer
 def digits(n):
     n = abs(n)
 
-
     for i in str(n):
         yield int(i)
 
+
 # n = int(input())
-#
 #
 # for i in digits(n):
 #     print(i, end=" ")
