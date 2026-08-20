@@ -70,6 +70,8 @@ def cumulative(lst):
     for i in lst:
         sum =sum + i
         yield sum
+#
+# for x in cumulative([1,7,4,6]):
+#     print(x,end=" ")
 
-for x in cumulative([1,7,4,6]):
-    print(x,end=" ")
+
